@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Faqat F uchun</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="dots" id="dots"><i></i><i></i><i></i></div>
+
+  <section class="step on" id="s0">
+    <h1>Bu sayt faqat F uchun</h1>
+    <p class="sub">Tug’ilgan yilingni kiriting</p>
+    <input id="i0" inputmode="numeric" maxlength="4" placeholder="----" autocomplete="off" aria-label="Tug’ilgan yil">
+    <div><button data-i="0">Tekshirish</button></div>
+    <div class="err" id="e0" role="alert"></div>
+  </section>
+
+  <section class="step" id="s1">
+    <h1>To’g’ri. Endi oyni kiriting</h1>
+    <p class="sub">Tug’ilgan oying raqami</p>
+    <input id="i1" inputmode="numeric" maxlength="2" placeholder="--" autocomplete="off" aria-label="Tug’ilgan oy">
+    <div><button data-i="1">Tekshirish</button></div>
+    <div class="err" id="e1" role="alert"></div>
+  </section>
+
+  <section class="step" id="s2">
+    <h1>Oxirgisi. Kunni kiriting</h1>
+    <p class="sub">Tug’ilgan kuning</p>
+    <input id="i2" inputmode="numeric" maxlength="2" placeholder="--" autocomplete="off" aria-label="Tug’ilgan kun">
+    <div><button data-i="2">Tekshirish</button></div>
+    <div class="err" id="e2" role="alert"></div>
+  </section>
+
+  <section class="step" id="final">
+    <p class="big">Orani ochmoqchimisiz?</p>
+    <p>Davay, unda menga yozing, bemalol.</p>
+    <p>Siz mendaylardan to’ydingiz, men esa xatolarim bilan shunday qolaman.</p>
+    <p>Qisqasi, orani ochmoqchi bo’lsangiz, bosing va tezda menga yozing.</p>
+    <div id="cta"><a class="btn" href="https://t.me/sanjarbee7" target="_blank" rel="noopener">Telegram: @sanjarbee7</a></div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
